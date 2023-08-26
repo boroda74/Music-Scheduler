@@ -117,14 +117,86 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Autostart" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Autostart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Отмена</value>
   </data>
-  <data name="DontSkip" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DontSkip.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Play.HeaderText" xml:space="preserve">
+    <value> И</value>
   </data>
-  <data name="TurnOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TurnOff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Play.ToolTipText" xml:space="preserve">
+    <value>Воспроизводить или пропускать плейлист</value>
+  </data>
+  <data name="WakeUp.ToolTipText" xml:space="preserve">
+    <value>Автоматически запускать MusicBee в указанное время и пробуждать ПК, если это требуется</value>
+  </data>
+  <data name="StartDateCheckbox.ToolTipText" xml:space="preserve">
+    <value>Включить дату запуска</value>
+  </data>
+  <data name="StartDate.HeaderText" xml:space="preserve">
+    <value>Дата нач.</value>
+  </data>
+  <data name="StartDate.ToolTipText" xml:space="preserve">
+    <value>Дата запуска</value>
+  </data>
+  <data name="StartTimeCheckbox.ToolTipText" xml:space="preserve">
+    <value>Включить время запуска</value>
+  </data>
+  <data name="StartTime.HeaderText" xml:space="preserve">
+    <value>Время н.</value>
+  </data>
+  <data name="StartTime.ToolTipText" xml:space="preserve">
+    <value>Время запуска. Если плейлист выбран для воспроизведения и время/дата запуска не указаны, то он начнет воспроизводиться сразу после того, как предыдущий плейлист закончится</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="StartTime.Width" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="Playlist.HeaderText" xml:space="preserve">
+    <value>Плейлист</value>
+  </data>
+  <data name="EndDateCheckbox.ToolTipText" xml:space="preserve">
+    <value>Включить дату остановки</value>
+  </data>
+  <data name="EndDate.HeaderText" xml:space="preserve">
+    <value>Дата ост.</value>
+  </data>
+  <data name="EndDate.ToolTipText" xml:space="preserve">
+    <value>Дата остановки</value>
+  </data>
+  <data name="EndTimeCheckbox.ToolTipText" xml:space="preserve">
+    <value>Включить время остановки</value>
+  </data>
+  <data name="EndTime.HeaderText" xml:space="preserve">
+    <value>Время о.</value>
+  </data>
+  <data name="EndTime.ToolTipText" xml:space="preserve">
+    <value>Время остановки</value>
+  </data>
+  <data name="EndTime.Width" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="MaxDurationCheckbox.ToolTipText" xml:space="preserve">
+    <value>Включить максимальную длительность</value>
+  </data>
+  <data name="Duration.HeaderText" xml:space="preserve">
+    <value>Длит.</value>
+  </data>
+  <data name="Duration.ToolTipText" xml:space="preserve">
+    <value>Максимальная длительность</value>
+  </data>
+  <data name="TurnOff.HeaderText" xml:space="preserve">
+    <value> В</value>
+  </data>
+  <data name="TurnOff.ToolTipText" xml:space="preserve">
+    <value>Выключение по завершении плейлиста</value>
+  </data>
+  <data name="buttonDelete.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="buttonAdd.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Задача планировщика музыки</value>
   </data>
 </root>

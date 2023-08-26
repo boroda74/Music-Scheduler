@@ -118,85 +118,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="notifyWhenCalculationCompletedCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>476, 39</value>
-  </data>
-  <data name="notifyWhenCalculationCompletedCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 17</value>
-  </data>
-  <data name="notifyWhenCalculationCompletedCheckBox.Text" xml:space="preserve">
-    <value>M'avertir lorsque le calcul est terminé</value>
-  </data>
-  <data name="calculateAlbumRatingAtStartUpCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>452, 17</value>
-  </data>
-  <data name="calculateAlbumRatingAtStartUpCheckBox.Text" xml:space="preserve">
-    <value>Calculer automatiquement les notes moyennes d'album de toute la collection au démarrage</value>
-  </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>224, 141</value>
-  </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 23</value>
-  </data>
-  <data name="button1.Text" xml:space="preserve">
-    <value>Sauvegarder les paramètres</value>
+  <data name="buttonOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
   </data>
   <data name="buttonCancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>576, 141</value>
+    <value>99, 38</value>
+  </data>
+  <data name="buttonCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
   </data>
   <data name="buttonCancel.Text" xml:space="preserve">
-    <value>Fermer</value>
-  </data>
-  <data name="buttonOK.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 23</value>
-  </data>
-  <data name="buttonOK.Text" xml:space="preserve">
-    <value>Calculer la note moyenne de l'album maintenant</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>380, 13</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Calculer automatiquement les notes moyennes d'album pour les pistes affichées</value>
-  </data>
-  <data name="considerUnratedCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 17</value>
-  </data>
-  <data name="considerUnratedCheckBox.Text" xml:space="preserve">
-    <value>Attribuer zéro étoile aux pistes non lues</value>
-  </data>
-  <data name="calculateAlbumRatingAtTagsChangedCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>462, 17</value>
-  </data>
-  <data name="calculateAlbumRatingAtTagsChangedCheckBox.Text" xml:space="preserve">
-    <value>Calculer automatiquement les notes moyennes d'album lorsque la note d'un piste est modifiée</value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 13</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Enregistrer les notes de piste dans le tag:</value>
-  </data>
-  <data name="trackRatingTagList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>224, 107</value>
-  </data>
-  <data name="albumRatingTagList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>576, 107</value>
-  </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>362, 110</value>
-  </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 13</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Enregistrer les notes d'album dans le tag:</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>709, 171</value>
+    <value>Отмена</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Calculer les notes moyennes d'un album</value>
+    <value>Длительность</value>
   </data>
 </root>

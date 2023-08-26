@@ -117,83 +117,96 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="notifyWhenCalculationCompletedCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>453, 39</value>
-  </data>
-  <data name="notifyWhenCalculationCompletedCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 17</value>
-  </data>
-  <data name="notifyWhenCalculationCompletedCheckBox.Text" xml:space="preserve">
-    <value>Powiadom o ukończeniu obliczeń</value>
-  </data>
-  <data name="calculateAlbumRatingAtStartUpCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>408, 17</value>
-  </data>
-  <data name="calculateAlbumRatingAtStartUpCheckBox.Text" xml:space="preserve">
-    <value>Po uruchomieniu automatycznie oblicz średnie oceny albumów dla całej biblioteki</value>
-  </data>
-  <data name="button1.Text" xml:space="preserve">
-    <value>Zapisz ustawienia</value>
-  </data>
-  <data name="buttonCancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>674, 141</value>
+  <data name="dateTimePicker.CustomFormat" xml:space="preserve">
+    <value>HH:mm:ss</value>
   </data>
   <data name="buttonCancel.Text" xml:space="preserve">
-    <value>Zamknij</value>
+    <value>Cancel</value>
   </data>
-  <data name="buttonOK.Text" xml:space="preserve">
-    <value>Oblicz teraz średnie oceny albumów</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="dateTimePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
   </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>271, 13</value>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Oblicz średnie oceny albumów dla pokazanych utworów</value>
+  <data name="&gt;&gt;buttonCancel.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="considerUnratedCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>282, 17</value>
+  <data name="buttonCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 23</value>
   </data>
-  <data name="considerUnratedCheckBox.Text" xml:space="preserve">
-    <value>Traktuj utwory bez ocen jako ocenione na 0 gwiazdek</value>
+  <data name="&gt;&gt;dateTimePicker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="calculateAlbumRatingAtTagsChangedCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>362, 17</value>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>DurationPickerForm</value>
   </data>
-  <data name="calculateAlbumRatingAtTagsChangedCheckBox.Text" xml:space="preserve">
-    <value>Automatycznie oblicz średnie oceny albumów po zmianie ocen utworów</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 13</value>
+  <data name="buttonOK.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Oceny utworów są przechowywane w tagu:</value>
-  </data>
-  <data name="trackRatingTagList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>228, 107</value>
-  </data>
-  <data name="trackRatingTagList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>159, 21</value>
-  </data>
-  <data name="albumRatingTagList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>636, 107</value>
-  </data>
-  <data name="albumRatingTagList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>159, 21</value>
-  </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>415, 110</value>
-  </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>215, 13</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Oceny albumów są przechowywane w tagu:</value>
+  <data name="&gt;&gt;buttonCancel.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>807, 171</value>
+    <value>186, 71</value>
+  </data>
+  <data name="&gt;&gt;buttonOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.Name" xml:space="preserve">
+    <value>buttonCancel</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MusicBeePlugin.PluginWindowTemplate, mb_MusicScheduler, Version=4.0.6274.24992, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="dateTimePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 20</value>
+  </data>
+  <data name="buttonCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 38</value>
+  </data>
+  <data name="buttonOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;buttonOK.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dateTimePicker.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;buttonOK.Name" xml:space="preserve">
+    <value>buttonOK</value>
+  </data>
+  <data name="&gt;&gt;buttonOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker.Name" xml:space="preserve">
+    <value>dateTimePicker</value>
+  </data>
+  <data name="buttonOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 23</value>
+  </data>
+  <data name="buttonOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 38</value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Oblicz średnie oceny albumów</value>
+    <value>Duration</value>
   </data>
+  <data name="&gt;&gt;dateTimePicker.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

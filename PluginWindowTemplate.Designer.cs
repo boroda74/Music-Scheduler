@@ -35,6 +35,7 @@
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.MinimizeBox = false;
             this.Name = "PluginWindowTemplate";
             this.ShowInTaskbar = false;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ToolsPluginTemplate_FormClosing);

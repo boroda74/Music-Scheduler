@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="buttonOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1025, 443</value>
+  </data>
+  <data name="buttonCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1106, 443</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="Play.HeaderText" xml:space="preserve">
+    <value>И</value>
+  </data>
+  <data name="Play.ToolTipText" xml:space="preserve">
+    <value>Включить задачу</value>
+  </data>
+  <data name="Task.HeaderText" xml:space="preserve">
+    <value>Задача</value>
+  </data>
+  <data name="previewTable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1179, 359</value>
+  </data>
+  <data name="buttonAdd.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="buttonDelete.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="buttonUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 443</value>
+  </data>
+  <data name="buttonDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 443</value>
+  </data>
+  <data name="buttonEdit.Text" xml:space="preserve">
+    <value>Изменить</value>
+  </data>
+  <data name="checkBoxWakeupPCOnAutostart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 17</value>
+  </data>
+  <data name="checkBoxWakeupPCOnAutostart.Text" xml:space="preserve">
+    <value>Пробуждать ПК, если требуется автозапуск MusicBee</value>
+  </data>
+  <data name="checkBoxWakeupPCOnAutostart.ToolTip" xml:space="preserve">
+    <value>ПК будет пробуждаться только из спящего режима</value>
+  </data>
+  <data name="buttonStopAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>761, 443</value>
+  </data>
+  <data name="buttonStopAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 23</value>
+  </data>
+  <data name="buttonStopAll.Text" xml:space="preserve">
+    <value>Остановить и отменить все</value>
+  </data>
+  <data name="buttonStopAll.ToolTip" xml:space="preserve">
+    <value>Остановить воспроизведение и отменить все запланированные плейлисты</value>
+  </data>
+  <data name="stopAfterCurrentCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>896, 19</value>
+  </data>
+  <data name="stopAfterCurrentCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 17</value>
+  </data>
+  <data name="stopAfterCurrentCheckBox.Text" xml:space="preserve">
+    <value>Заканчивать воспроизведение текущей дорожки</value>
+  </data>
+  <data name="stopAfterCurrentCheckBox.ToolTip" xml:space="preserve">
+    <value>Воспроизводить текущую дорожку до конца независимо от 
+времени начала/остановки и макс. длитетельности плейлиста</value>
+  </data>
+  <data name="skinColorsCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>925, 46</value>
+  </data>
+  <data name="skinColorsCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 17</value>
+  </data>
+  <data name="skinColorsCheckBox.Text" xml:space="preserve">
+    <value>Использовать цвета оформления MusicBee</value>
+  </data>
+  <data name="skinColorsCheckBox.ToolTip" xml:space="preserve">
+    <value>Требуется перезапуск MusicBee</value>
+  </data>
+  <data name="closeMbCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>691, 19</value>
+  </data>
+  <data name="closeMbCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 17</value>
+  </data>
+  <data name="closeMbCheckBox.Text" xml:space="preserve">
+    <value>Закрыть MusicBee</value>
+  </data>
+  <data name="closeMbCheckBox.ToolTip" xml:space="preserve">
+    <value>Закрыть MusicBee перед выключением ПК</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1179, 67</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value> Настройки </value>
+  </data>
+  <data name="preventMonitorSleepCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>593, 46</value>
+  </data>
+  <data name="preventMonitorSleepCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>326, 17</value>
+  </data>
+  <data name="preventMonitorSleepCheckBox.Text" xml:space="preserve">
+    <value>Отключить спящий режим монитора при воспроизведении</value>
+  </data>
+  <data name="preventPcSleepCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 46</value>
+  </data>
+  <data name="preventPcSleepCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>274, 17</value>
+  </data>
+  <data name="preventPcSleepCheckBox.Text" xml:space="preserve">
+    <value>Отключить спящий режим при воспроизведении</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>679, 27</value>
+  </data>
+  <data name="radioButtonOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 5</value>
+  </data>
+  <data name="radioButtonOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 17</value>
+  </data>
+  <data name="radioButtonOn.Text" xml:space="preserve">
+    <value>Не выключать ПК</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 13</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Режим выключения:</value>
+  </data>
+  <data name="radioButtonShutdown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>516, 5</value>
+  </data>
+  <data name="radioButtonShutdown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 17</value>
+  </data>
+  <data name="radioButtonShutdown.Text" xml:space="preserve">
+    <value>Выключение</value>
+  </data>
+  <data name="radioButtonHibernate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 5</value>
+  </data>
+  <data name="radioButtonHibernate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 17</value>
+  </data>
+  <data name="radioButtonHibernate.Text" xml:space="preserve">
+    <value>Гибернация</value>
+  </data>
+  <data name="radioButtonSleep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>252, 5</value>
+  </data>
+  <data name="radioButtonSleep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 17</value>
+  </data>
+  <data name="radioButtonSleep.Text" xml:space="preserve">
+    <value>Сон</value>
+  </data>
+  <data name="buttonApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>944, 443</value>
+  </data>
+  <data name="buttonApply.Text" xml:space="preserve">
+    <value>Применить</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1185, 471</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1193, 503</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Планировщик воспроизведения музыки</value>
+  </data>
+</root>
