@@ -35,14 +35,9 @@ Do all you want with plugin binary and source code at your own risk.
 Working for all users at the time of posting.
 <br/>
 
-**Source code**
-
-[MS VS 2022 project, C#.][1] Most people don't need this. 
-
 **Backup download**
 
-[Google Drive, all my plugins and their sources][2]
+[Google Drive, all my plugins and their sources][1]
 
 
-  [1]: https://github.com/boroda74/Music-Scheduler
-  [2]: https://drive.google.com/drive/folders/0B-D1MoIY406HMzlJVWprYXF1Q0k?usp=sharing
+  [1]: https://drive.google.com/drive/folders/0B-D1MoIY406HMzlJVWprYXF1Q0k?usp=sharing
