@@ -362,8 +362,8 @@ namespace MusicBeePlugin
 
         private void preventPcSleepCheckBox_CheckedChanged(object sender, EventArgs e)
         {
-            if (!preventPcSleepCheckBox.Checked)
-                preventMonitorSleepCheckBox.Checked = false;
+            //if (!preventPcSleepCheckBox.Checked)
+            //    preventMonitorSleepCheckBox.Checked = false;
 
             preventMonitorSleepCheckBox.Enabled = preventPcSleepCheckBox.Checked;
         }
