@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("TurnMonitorOn")]
-[assembly: AssemblyCopyright("Copyright © boroda 2022")]
+[assembly: AssemblyCopyright("Copyright © boroda 2022-2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -32,5 +32,7 @@ using System.Runtime.InteropServices;
 // Можно задать все значения или принять номера сборки и редакции по умолчанию 
 // используя "*", как показано ниже:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.9091.37758")]
-[assembly: AssemblyFileVersion("1.0.9091.37758")]
+[assembly: AssemblyVersion("1.0.9141.23831")]
+[assembly: AssemblyFileVersion("1.0.9141.23831")]
+
+[assembly: AssemblyInformationalVersion("0.0.9141.23831")]

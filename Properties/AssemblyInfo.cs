@@ -11,7 +11,7 @@ using System.Resources;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Music Scheduler")]
-[assembly: AssemblyCopyright("Copyright © boroda 2016-2023")]
+[assembly: AssemblyCopyright("Copyright © boroda 2016-2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -33,6 +33,8 @@ using System.Resources;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("4.4.9091")]
-[assembly: AssemblyFileVersion("4.4.9091.37758")]
+[assembly: AssemblyVersion("4.5.9141")]
+[assembly: AssemblyFileVersion("4.5.9141.23831")]
 [assembly: NeutralResourcesLanguageAttribute("en")]
+
+[assembly: AssemblyInformationalVersion("0.0.9141.23831")]

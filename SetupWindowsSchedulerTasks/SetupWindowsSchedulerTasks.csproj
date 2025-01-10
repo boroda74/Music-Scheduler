@@ -12,14 +12,14 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <AssemblyVersion>1.0.9091.37758</AssemblyVersion>
+    <AssemblyVersion>1.0.9141.23831</AssemblyVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\..\Архив\Плейеры\.MusicBee\.MusicBee Portable Development\Plugins\</OutputPath>
+    <OutputPath>..\..\..\..\Архив\Плейеры\.MusicBee\.MusicBee Portable Development\Plugins\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -28,7 +28,7 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\..\..\Архив\Плейеры\.MusicBee\.MusicBee Portable Development\Plugins\</OutputPath>
+    <OutputPath>..\..\..\..\Архив\Плейеры\.MusicBee\.MusicBee Portable Development\Plugins\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
